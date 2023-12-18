@@ -96,6 +96,11 @@ body {
     margin-left: 150px;
   }
 
+  .pdf {
+    width: 1300px;
+    height: 775px;
+  }
+
   /* website responsiveness mobile and desktop */
   
   @media only screen and (max-width: 480px) {
@@ -129,4 +134,11 @@ body {
     .tut {
         margin-left: 0;
       }
+
+    .pdf {
+        width: 450px;
+        height: 450px;
+    }
   }  
+
+  

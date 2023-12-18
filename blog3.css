@@ -51,14 +51,20 @@
     display: flex;
     padding: 50px;
     box-sizing: border-box;
-    border: 2px solid black;
     background-color: rgba(203, 203, 203, .20);
+    border-radius: 20px;
+    box-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
 
 }
 
 .text {
-    margin-top: 30px;
-    padding-top: 0;
+  display: flex;
+  margin-top: 30px;
+}
+
+.text img {
+margin-right: 30px;
+border-radius: 10px;
 }
 
 /* footer */
@@ -80,4 +86,33 @@
   .social-icons img {
     width: 30px; /* Adjust the width to your desired size */
     height: auto; /* Maintain aspect ratio */
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .blog {
+      padding: 30px; /* Adjusted padding for smaller screens */
+      height: auto; /* Auto height on smaller screens */
+    }
+    
+    .learning-img {
+      width: 100%; 
+      height: 50vh;
+    }
+  
+    .learning1,
+    .learning2,
+    .learning3,
+    .learning4 {
+      width: 450px;
+      margin: 20px; /* Adjusted margin for smaller screens */
+      padding: 30px; /* Adjusted padding for smaller screens */
+    }
+
+    .text {
+      display: block;
+      padding-top: 20px;
+      width: 400px;
+      padding: 20x;
+    }
   }
